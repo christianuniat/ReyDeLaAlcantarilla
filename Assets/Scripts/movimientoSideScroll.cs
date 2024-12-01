@@ -21,29 +21,23 @@ public class movimientoSideScroll : MonoBehaviour
       
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Move(float _movX)
     {
-        movX = Input.GetAxisRaw("Horizontal");
-        anim.SetFloat("movX", movX);
-
-
-        if (Input.GetButtonDown("Jump") && jumps > 0)
+        rbtopdown.velocity = new Vector2(_movX* speed, rbtopdown.velocity.y);
+        
+    }
+    
+    public void Jump()
+    {
+        if (jumps > 0) 
         {
             rbtopdown.AddForce(Vector2.up * jump, ForceMode2D.Impulse);
             jumps--;
         }
     }
 
-    void FixedUpdate()
-    {
-        rbtopdown.velocity = new Vector2(movX* speed, rbtopdown.velocity.y);
-        
-    }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Suelo")) jumps = 2;
     }
-   
 }

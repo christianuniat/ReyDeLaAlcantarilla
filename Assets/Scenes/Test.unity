@@ -280,37 +280,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1 &566971877 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3939873398872755666, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
-  m_PrefabInstance: {fileID: 4059794030338849035}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &566971884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 566971877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2e2f84a56117d04082f0e81db3e7c57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lifeTime: 0.25
-  sword: {fileID: 2136437830}
---- !u!114 &566971885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 566971877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4741f6609817b34cb2c16cd5eca714b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1081504268
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,11 +417,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!1 &2136437830 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8772549051068330118, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
-  m_PrefabInstance: {fileID: 4059794030338849035}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4059794030338849035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -461,25 +425,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1013023924923282961, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 53167b6cb52089d4ca5d692ca1d0f0a3, type: 2}
-    - target: {fileID: 3787770350376882308, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
-      propertyPath: m_Constraints
-      value: 4
+    - target: {fileID: 485532630882939044, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
+      propertyPath: m_Size.x
+      value: 0.18671837
+      objectReference: {fileID: 0}
+    - target: {fileID: 485532630882939044, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
+      propertyPath: m_Size.y
+      value: 0.3458386
+      objectReference: {fileID: 0}
+    - target: {fileID: 485532630882939044, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 485532630882939044, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.008840047
       objectReference: {fileID: 0}
     - target: {fileID: 3939873398872755666, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 5877116030610102561, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
-      propertyPath: jump
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5877116030610102561, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
-      propertyPath: speed
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6759437950409859795, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -524,13 +488,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3939873398872755666, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
-      insertIndex: 4
-      addedObject: {fileID: 566971885}
-    - targetCorrespondingSourceObject: {fileID: 3939873398872755666, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
-      insertIndex: 6
-      addedObject: {fileID: 566971884}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

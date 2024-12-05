@@ -441,9 +441,21 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.008840047
       objectReference: {fileID: 0}
+    - target: {fileID: 1279052107987416146, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.64971334
+      objectReference: {fileID: 0}
+    - target: {fileID: 1279052107987416146, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1821
+      objectReference: {fileID: 0}
     - target: {fileID: 3939873398872755666, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5665082509589167865, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6759437950409859795, guid: 741e74b3b14217245b6e284baa0dbd5f, type: 3}
       propertyPath: m_LocalPosition.x

@@ -6,6 +6,7 @@ public class ataquesidescroller : MonoBehaviour
 {
     [SerializeField] float lifeTime;
     [SerializeField] GameObject sword;
+    
 
 
     public void Start()

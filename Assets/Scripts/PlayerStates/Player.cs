@@ -1,42 +1,62 @@
+using System;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
-
-    public Animator animator;
-    public bool isOnFloor = false;
-    public bool isOnWall = false;
-    public bool facingRight = true;
-    public float movX;
-    public float Speed;
-    public float JumpForce;
+    [SerializeField] public float Speed;
+    [Header("Jumps")]
+    [SerializeField] int JumpCount;
+    public float JumpHeight;
+    public float gravityScale=1;
+    public float gravityFall=2;
+    [NonSerialized] public Animator animator;
+    [NonSerialized] public bool isOnFloor = false;
+    [NonSerialized] public bool isOnWall = false;
+    [NonSerialized] public bool facingRight = true;
+    [NonSerialized] public float movX;
+    [NonSerialized] public int CurrentJumpCount;
 
     PlayerFiniteState stateMachine;
     State initialState;
+    ataquesidescroller _ataquesidescroller;
 
     private void Awake()
     {
+        CurrentJumpCount = JumpCount;
         animator = GetComponent<Animator>();
         initialState = new PlayerIdleState(this);
         stateMachine = new PlayerFiniteState(this, initialState);
     }
 
-
+    private void Start()
+    {
+        _ataquesidescroller = GetComponent<ataquesidescroller>();
+        GetComponent<Rigidbody2D>().gravityScale = gravityFall;
+    }
     // Update is called once per frame
     void Update()
     {
         movX = Input.GetAxisRaw("Horizontal");
         if (movX > 0 && !facingRight) Flip();
         if (movX < 0 && facingRight) Flip();
-
+        
         stateMachine.FrameUpdate();
+
+        if (Input.GetButtonDown("Jump") && (isOnFloor || isOnWall))
+        {
+            isOnFloor = false;
+            isOnWall = false;
+        }
+        if (Input.GetButtonDown("Fire1")) _ataquesidescroller.Ataca();
+
+
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        isOnFloor = (collision.gameObject.tag == "Suelo");
-        isOnWall = (collision.gameObject.tag == "Wall");
+        if (collision.gameObject.tag == "Suelo") { CurrentJumpCount = JumpCount; isOnFloor = true; }    
+        if (collision.gameObject.tag == "Pared") { CurrentJumpCount = JumpCount; isOnWall = true; }    
+        
     }
 
     void Flip()

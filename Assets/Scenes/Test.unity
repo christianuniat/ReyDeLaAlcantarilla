@@ -2002,6 +2002,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!1 &1879015264 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1083386274150548535, guid: 902dad1c6aa955f4da21a7aaa51a3fb2, type: 3}
+  m_PrefabInstance: {fileID: 672801035074483400}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2008328599
 GameObject:
   m_ObjectHideFlags: 0
@@ -2531,6 +2536,7 @@ GameObject:
   - component: {fileID: 5435903141356802301}
   - component: {fileID: 8209521092071405160}
   - component: {fileID: 8744896812195475678}
+  - component: {fileID: 8744896812195475679}
   m_Layer: 0
   m_Name: Player_FSM
   m_TagString: Untagged
@@ -2554,7 +2560,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 71604793af3281b43821b6735847edaf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2643,13 +2649,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e38bc14ac7dcadc49bc5303019313515, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 8209521092071405160}
-  isOnFloor: 0
-  isOnWall: 0
-  facingRight: 1
-  movX: 0
-  Speed: 7
-  JumpForce: 0
+  Speed: 3
+  JumpCount: 2
+  JumpForce: 10
+--- !u!114 &8744896812195475679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5282113168253537707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2e2f84a56117d04082f0e81db3e7c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeTime: 0.25
+  sword: {fileID: 1879015264}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

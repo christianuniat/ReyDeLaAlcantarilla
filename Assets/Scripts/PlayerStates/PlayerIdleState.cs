@@ -20,7 +20,6 @@ public class PlayerIdleState : State
 
     public override void Enter() 
     {
-        _parent.animator.Play("Idle");
         _rb.velocity = new Vector2(_parent.movX * _parent.Speed * Time.deltaTime * 1000, _rb.velocity.y);
         return; 
     }
@@ -29,6 +28,8 @@ public class PlayerIdleState : State
     {
         if (_parent.movX != 0.0f) { return _movementState; }
         if(Input.GetButtonDown("Jump")&&_parent.isOnFloor) { return _jumpState; }
+        _parent.animator.Play("Idle");
+
         return null; 
     }
 }

@@ -40,8 +40,8 @@ public class Player : MonoBehaviour
         if (movX > 0 && !facingRight) Flip();
         if (movX < 0 && facingRight) Flip();
         
-        stateMachine.FrameUpdate();
 
+        stateMachine.FrameUpdate();
         if (Input.GetButtonDown("Jump") && (isOnFloor || isOnWall))
         {
             isOnFloor = false;

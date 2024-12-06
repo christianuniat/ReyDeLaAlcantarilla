@@ -2559,7 +2559,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 10
   m_Material: {fileID: 6200000, guid: 71604793af3281b43821b6735847edaf, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
@@ -2567,9 +2567,9 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!95 &8209521092071405160
 Animator:
@@ -2649,9 +2649,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e38bc14ac7dcadc49bc5303019313515, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 3
+  Speed: 4
   JumpCount: 2
-  JumpForce: 10
+  JumpHeight: 3
+  gravityScale: 4
+  gravityFall: 7
 --- !u!114 &8744896812195475679
 MonoBehaviour:
   m_ObjectHideFlags: 0

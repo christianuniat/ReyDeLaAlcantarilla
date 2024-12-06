@@ -17,7 +17,6 @@ public class PlayerJumpState : State
 
     public override void Enter()
     {
-        _parent.animator.Play("Jump");
         _jumpForce = Mathf.Sqrt(_parent.JumpHeight * (Physics2D.gravity.y * _rb.gravityScale) * -2) * _rb.mass;
         Jump();
     }
@@ -35,6 +34,7 @@ public class PlayerJumpState : State
         _rb.gravityScale = _parent.gravityFall;
         if (_rb.velocity.y > 0) { _rb.gravityScale = _parent.gravityScale; }
 
+        _parent.animator.Play("Jump");
 
         return null;
     }
@@ -42,8 +42,8 @@ public class PlayerJumpState : State
     {
         if (_parent.CurrentJumpCount > 0)
         {
-            _rb.velocity.Set(_rb.velocity.x, 0.0f);
-            _rb.AddForce(Vector2.up * _jumpForce, ForceMode2D.Impulse);
+            _rb.velocity=new Vector2(0f,0f);
+            _rb.velocity=Vector2.up*_jumpForce;
             _rb.gravityScale = _parent.gravityScale;
 
             _parent.CurrentJumpCount--;

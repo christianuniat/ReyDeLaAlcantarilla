@@ -19,7 +19,6 @@ public class PlayerMovementState : State
 
     public override void Enter()
     {
-        _parent.animator.Play("Walk");
         return;
     }
     public override State FrameUpdate() 
@@ -28,6 +27,8 @@ public class PlayerMovementState : State
         if (_parent.movX == 0.0f && _parent.isOnFloor) { return _idleState; }
         if(Input.GetButtonDown("Jump")&&_parent.isOnFloor) { return _jumpState; }
         _rb.velocity= new Vector2(_parent.movX * _parent.Speed*Time.deltaTime*500, _rb.velocity.y);
+        _parent.animator.Play("Walk");
+
         return null;
     }
 

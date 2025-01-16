@@ -15,7 +15,8 @@ GameObject:
   - component: {fileID: 2028872076611711156}
   - component: {fileID: 7137066849834070740}
   - component: {fileID: 3342919804981414257}
-  m_Layer: 0
+  - component: {fileID: 5144018558826052172}
+  m_Layer: 6
   m_Name: Player_FSM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +124,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.000000029802322, y: 0.008840047}
+  m_Offset: {x: -0.000000029802322, y: -0.010536432}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -134,7 +135,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.18671837, y: 0.3458386}
+  m_Size: {x: 0.18671837, y: 0.38459158}
   m_EdgeRadius: 0
 --- !u!50 &3960098749024785354
 Rigidbody2D:
@@ -196,7 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e38bc14ac7dcadc49bc5303019313515, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 4
+  Speed: 20
   JumpCount: 2
   JumpHeight: 3
   gravityScale: 4
@@ -215,6 +216,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifeTime: 0.25
   sword: {fileID: 8212728527797425065}
+--- !u!114 &5144018558826052172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5527118987680641571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b0edfe4854074542b4b81f109b032a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxhealth: 10
 --- !u!1 &6637647278543824269
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,7 +241,7 @@ GameObject:
   - component: {fileID: 2407231525994881276}
   - component: {fileID: 1229994960720005239}
   - component: {fileID: 402775563814239859}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -363,6 +377,10 @@ PrefabInstance:
     - target: {fileID: 1083386274150548535, guid: 902dad1c6aa955f4da21a7aaa51a3fb2, type: 3}
       propertyPath: m_Name
       value: Sword
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083386274150548535, guid: 902dad1c6aa955f4da21a7aaa51a3fb2, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4046702477675727432, guid: 902dad1c6aa955f4da21a7aaa51a3fb2, type: 3}
       propertyPath: m_Size.x

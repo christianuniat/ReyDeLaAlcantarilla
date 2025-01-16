@@ -15,10 +15,12 @@ public class Player : MonoBehaviour
     [NonSerialized] public bool facingRight = true;
     [NonSerialized] public float movX;
     [NonSerialized] public int CurrentJumpCount;
+    
 
     PlayerFiniteState stateMachine;
     State initialState;
     ataquesidescroller _ataquesidescroller;
+    Health health;
 
     private void Awake()
     {
@@ -26,6 +28,7 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         initialState = new PlayerIdleState(this);
         stateMachine = new PlayerFiniteState(this, initialState);
+        health=GetComponent<Health>();
     }
 
     private void Start()
@@ -56,7 +59,8 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "Suelo") { CurrentJumpCount = JumpCount; isOnFloor = true; }    
         if (collision.gameObject.tag == "Pared") { CurrentJumpCount = JumpCount; isOnWall = true; }    
-        
+        if (collision.gameObject.tag == "Enemigo") { health.GotHit(); }
+
     }
 
     void Flip()

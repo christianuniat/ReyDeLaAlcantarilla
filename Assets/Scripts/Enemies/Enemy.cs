@@ -6,10 +6,10 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] int Health;
     [SerializeField] float direccion=1f;
-    
+    [SerializeField] float invinsebleTime;
+
     movimientoSideScroll movement;
     
-    bool isOnFloor = false;
     bool _invincible = false;
 
     void Start()
@@ -20,8 +20,6 @@ public class Enemy : MonoBehaviour
 
     public void GotHit() 
     {
-        Debug.Log(Health);
-        Debug.Log(_invincible);
         if (_invincible) return;
         
         Health--;
@@ -39,8 +37,10 @@ public class Enemy : MonoBehaviour
 
     IEnumerator Invincible() 
     {
-        yield return new WaitForSeconds(.5f);
-        _invincible=false;
+        GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, .5f);
+        yield return new WaitForSeconds(invinsebleTime);
+        GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1f);
+        _invincible = false;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

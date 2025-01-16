@@ -5,8 +5,19 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] int Health;
-
+    [SerializeField] float direccion=1f;
+    
+    movimientoSideScroll movement;
+    
+    bool isOnFloor = false;
     bool _invincible = false;
+
+    void Start()
+    {
+        movement = GetComponent<movimientoSideScroll>();
+        
+    }
+
     public void GotHit() 
     {
         Debug.Log(Health);
@@ -20,9 +31,20 @@ public class Enemy : MonoBehaviour
 
     }
 
+    private void FixedUpdate()
+    {
+     
+        movement.Move(direccion);
+    }
+
     IEnumerator Invincible() 
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(.5f);
         _invincible=false;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Pared")) direccion = direccion * -1; 
     }
 }

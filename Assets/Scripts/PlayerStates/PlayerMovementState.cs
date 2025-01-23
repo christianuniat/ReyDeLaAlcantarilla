@@ -19,15 +19,25 @@ public class PlayerMovementState : State
 
     public override void Enter()
     {
+        _parent.animator.Play("Walk");
         return;
     }
     public override State FrameUpdate() 
     {
         if (_rb == null) { return null; }
-        if (_parent.movX == 0.0f && _parent.isOnFloor) { return _idleState; }
-        if(Input.GetButtonDown("Jump")&&_parent.isOnFloor) { return _jumpState; }
+        if (_parent.movX == 0.0f && _parent.isOnFloor) 
+        {
+            _parent.audioSteps.Stop();
+            return _idleState; 
+        }
+        if(Input.GetButtonDown("Jump")&&_parent.isOnFloor) 
+        {
+            return _jumpState; 
+        }
         _rb.velocity= new Vector2(_parent.movX * _parent.Speed*Time.deltaTime*500, _rb.velocity.y);
         _parent.animator.Play("Walk");
+        if(_parent.audioSteps.isPlaying) { return null; }
+        _parent.audioSteps.Play();
 
         return null;
     }

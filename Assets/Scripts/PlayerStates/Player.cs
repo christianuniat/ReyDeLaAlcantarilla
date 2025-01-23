@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
     public float JumpHeight;
     public float gravityScale=1;
     public float gravityFall=2;
+    public AudioSource audioSteps;
+    public AudioSource audioJump;
     [NonSerialized] public Animator animator;
     [NonSerialized] public bool isOnFloor = false;
     [NonSerialized] public bool isOnWall = false;

@@ -18,6 +18,7 @@ public class PlayerJumpState : State
     public override void Enter()
     {
         _jumpForce = Mathf.Sqrt(_parent.JumpHeight * (Physics2D.gravity.y * _rb.gravityScale) * -2) * _rb.mass;
+        _parent.audioSteps.Stop();
         Jump();
     }
     public override void Exit()
@@ -45,6 +46,7 @@ public class PlayerJumpState : State
             _rb.velocity=new Vector2(0f,0f);
             _rb.velocity=Vector2.up*_jumpForce;
             _rb.gravityScale = _parent.gravityScale;
+            _parent.audioJump.Play();
 
             _parent.CurrentJumpCount--;
         }

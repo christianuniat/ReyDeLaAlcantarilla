@@ -47,9 +47,15 @@ TagManager:
   - name: Background
     uniqueID: 337131985
     locked: 0
-  - name: Jugador
-    uniqueID: 97632741
+  - name: Deco
+    uniqueID: 241580377
     locked: 0
   - name: Enemigos
     uniqueID: 3786362821
+    locked: 0
+  - name: Platform
+    uniqueID: 689615691
+    locked: 0
+  - name: Jugador
+    uniqueID: 97632741
     locked: 0

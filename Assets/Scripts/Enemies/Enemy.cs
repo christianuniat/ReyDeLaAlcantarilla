@@ -45,6 +45,11 @@ public class Enemy : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Pared")) direccion = direccion * -1; 
+        if (collision.gameObject.CompareTag("Pared") || collision.gameObject.CompareTag("Suelo")) { direccion = direccion * -1; GetComponent<SpriteRenderer>().flipX = (direccion>0); }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Pared") || collision.gameObject.CompareTag("Suelo")) { direccion = direccion * -1; GetComponent<SpriteRenderer>().flipX = (direccion > 0); }
     }
 }

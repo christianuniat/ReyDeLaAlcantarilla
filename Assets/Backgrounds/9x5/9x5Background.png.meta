@@ -1,0 +1,1346 @@
+fileFormatVersion: 2
+guid: 62cac6ee71ded484a9d0965b2114e919
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 9x5Background_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 765
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78405925dcf8694aa605422ed808e36
+      internalID: 653507680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 765
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab79e0116034f049acb306b0f7fca26
+      internalID: 1365804907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 765
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cd4398af533c34591d36abd111bc5f
+      internalID: -971224505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 765
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c4aa9969aea374f8d3994f16012956
+      internalID: 1279843693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_4
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 765
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebb5e9f33db7f84e87f6fdc6311affe
+      internalID: 274749515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_5
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 765
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c535889a5ae1843b23921f2745ec0f
+      internalID: -1491877962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c714c65bffb06469569298969aaa32
+      internalID: 154201228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 680
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b3752575a042944bc435b70c799308
+      internalID: -1670627660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_8
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 680
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab930bd13ccb7542945d95ab2592cfa
+      internalID: -1016357080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_9
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 680
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95094dba916659c499ec26111364017d
+      internalID: -134977856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_10
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 680
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2eae89988f185244a22ca525cf63c80
+      internalID: -1363208379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_11
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 680
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fff813321c57804f86d9a2ba852a179
+      internalID: -891769994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 595
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5459adf034df55c4cab20d2f0baa921d
+      internalID: -1377542194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_13
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 595
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c68616ea47fa2c42b27094403d5dfe0
+      internalID: 1345023028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 595
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8f191dfb00992428e1a21a681cd28f
+      internalID: 1141293648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_15
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 595
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c658885bda3f2344d8e029dcec486744
+      internalID: 14232734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_16
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 595
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14edc07d87dc6247a9ee9bce665e627
+      internalID: 279643622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_17
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 595
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9870eae522fa34a43a0efaef687dbf14
+      internalID: -866891218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329bbf22a93f01545af2084820a5ca4e
+      internalID: 1773367918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_19
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 510
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e9102dc3ea2204abf0d95dd630a3a6
+      internalID: -927679856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_20
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 510
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380fccb311f921b4ca914e7c6deec9a4
+      internalID: 507277116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_21
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 510
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d43cc198d18b54981d797aa210b1c5
+      internalID: 173613736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_22
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 510
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42a8ff8715f0ea44b86eaaae2498a44
+      internalID: 179088242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_23
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 510
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a9267659838f44799d13ab2854f69d
+      internalID: 1089797485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 425
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccece9624b7ce14e933c979415fffe2
+      internalID: 2109527913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_25
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 425
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5f6967848977e499aeaaada0ef7e90
+      internalID: 1811050218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_26
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 425
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871b8246783302e418ebd2278f428b9e
+      internalID: 296532754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_27
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 425
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b383bba46d6bd48a50dad6b4751d0a
+      internalID: -404569736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_28
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 425
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014250e4926a36f4083aa5b80e4acdce
+      internalID: -33513983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_29
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 425
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c080ff973bae7294b925a34f1c91bdaf
+      internalID: 1184490969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4e95ab36119574abb8b3899c021b5c
+      internalID: -415859791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_31
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 340
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4950a54d3dfa84a8cd1cd550f598e0
+      internalID: 242131219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_32
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 340
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619da82cf99ca8b41bb96dd1d9dd5e24
+      internalID: 1615231249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_33
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 340
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff63ceebe75f4a40a61fe8721a9f511
+      internalID: -488237580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_34
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 340
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a101be10ca1fdfd438ac6c3e7416bbb4
+      internalID: -1479958042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_35
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 340
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e778fede6f80647bdc4ec9497bb36d
+      internalID: 1292712368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96c1cf92a56d8044af9f1d947a11136
+      internalID: -93472211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_37
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 255
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817d4994a27c54949b9ab27898886afb
+      internalID: -502699202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_38
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 255
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7487915ac19a0f446b55cdcc4aa6394a
+      internalID: -400921683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_39
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 255
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64447250a48f1364f8f25fa2e911784d
+      internalID: -2054326495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_40
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 255
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1feee3376edcd8d45af8a3b9624fe1e6
+      internalID: 1556369492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_41
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 255
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b6392db5df8e84ba468912468dfc50
+      internalID: 1807276585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47077c9f938cdd9489d88348e7f690f0
+      internalID: -1874594733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_43
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 170
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93561027c3ad2534ab4008a7733de6f0
+      internalID: -86857212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_44
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 170
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce2be5b4f060ca44910066a9149fd5b
+      internalID: -132640374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_45
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 170
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a7d310574ea0a49813c5a000924970
+      internalID: 1059096921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_46
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 170
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f4d4dbd4be8664b91157e1118a7ed2
+      internalID: -236935483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_47
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 170
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926ed804066012a4d8d47c14ae852448
+      internalID: -1579424858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8e8a75ee3bfb847b4ebb1a282bde71
+      internalID: -1945698090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_49
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 85
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad8ccb31031d8a4fbde607d9159458a
+      internalID: 685075300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_50
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 85
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a49fcea805100042b4ff633dbe661b8
+      internalID: -312562190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_51
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 85
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f92285e03863e04fbd8057c03e66722
+      internalID: 1976271365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_52
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 85
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09ceb6671173d54285c9d26afca72c1
+      internalID: -593691256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_53
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 85
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd26df6a549ea8b438df6fd26eba243f
+      internalID: -1776438427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1494c919aeb1c8a4bac088501566bc24
+      internalID: 1763848897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9x5Background_55
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 153
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2619d4fcb70e46e4bb362d1d82c7b39f
+      internalID: 6586646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      9x5Background_0: 653507680
+      9x5Background_1: 1365804907
+      9x5Background_10: -1363208379
+      9x5Background_11: -891769994
+      9x5Background_12: -1377542194
+      9x5Background_13: 1345023028
+      9x5Background_14: 1141293648
+      9x5Background_15: 14232734
+      9x5Background_16: 279643622
+      9x5Background_17: -866891218
+      9x5Background_18: 1773367918
+      9x5Background_19: -927679856
+      9x5Background_2: -971224505
+      9x5Background_20: 507277116
+      9x5Background_21: 173613736
+      9x5Background_22: 179088242
+      9x5Background_23: 1089797485
+      9x5Background_24: 2109527913
+      9x5Background_25: 1811050218
+      9x5Background_26: 296532754
+      9x5Background_27: -404569736
+      9x5Background_28: -33513983
+      9x5Background_29: 1184490969
+      9x5Background_3: 1279843693
+      9x5Background_30: -415859791
+      9x5Background_31: 242131219
+      9x5Background_32: 1615231249
+      9x5Background_33: -488237580
+      9x5Background_34: -1479958042
+      9x5Background_35: 1292712368
+      9x5Background_36: -93472211
+      9x5Background_37: -502699202
+      9x5Background_38: -400921683
+      9x5Background_39: -2054326495
+      9x5Background_4: 274749515
+      9x5Background_40: 1556369492
+      9x5Background_41: 1807276585
+      9x5Background_42: -1874594733
+      9x5Background_43: -86857212
+      9x5Background_44: -132640374
+      9x5Background_45: 1059096921
+      9x5Background_46: -236935483
+      9x5Background_47: -1579424858
+      9x5Background_48: -1945698090
+      9x5Background_49: 685075300
+      9x5Background_5: -1491877962
+      9x5Background_50: -312562190
+      9x5Background_51: 1976271365
+      9x5Background_52: -593691256
+      9x5Background_53: -1776438427
+      9x5Background_54: 1763848897
+      9x5Background_55: 6586646
+      9x5Background_6: 154201228
+      9x5Background_7: -1670627660
+      9x5Background_8: -1016357080
+      9x5Background_9: -134977856
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

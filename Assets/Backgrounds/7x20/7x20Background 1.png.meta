@@ -1,0 +1,1456 @@
+fileFormatVersion: 2
+guid: 73b1fc33f3d8a3f43b413c98e8818e9f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 7x20Background_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1360
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bf2422fb649724f8d7553afd58e21a
+      internalID: 1212567563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1360
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd760c2925253e54c80feb7bb450128d
+      internalID: 577987818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1360
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e42f025773e29040915b1eb4fec8223
+      internalID: -1242709025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_3
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1360
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2f274839b46284a81540b276800e03
+      internalID: 1875678632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_4
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1360
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f903dfe76df6a1542afb0dc20a3246c5
+      internalID: 487255143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_5
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1360
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811e5b36a66623a48b6b6762b6a4f32a
+      internalID: 1605794049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_6
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1360
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2744e426fe4124e47b89b9a47588149c
+      internalID: 1671544969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_7
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1360
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffb6dce6a00d6d478a13b1e83f4102f
+      internalID: -54105832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_8
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1360
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23c3639808626c438a0f89a0366866e
+      internalID: 388766257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_9
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1360
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00ad5b7ab6867d49821b6ef69912b99
+      internalID: -1815901654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_10
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1360
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f2e34efa8ff13458e9e112eb0c4af9
+      internalID: 1932577689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_11
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1360
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74feccc4665bd48488afad1ad163b4fa
+      internalID: -669968768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_12
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1360
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac8d13cf39762844bbabfa3f80020fa
+      internalID: -1370329996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1020
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434b73ad200d27d4ca643711366a776f
+      internalID: -455277127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_14
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1020
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7588969de3558d4da77761d06263ff9
+      internalID: 685082586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_15
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1020
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558b15254c1f4364a836d04429683a2b
+      internalID: 1237766221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_16
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1020
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1c35321c9d21f4e836adeaeaa7adaa
+      internalID: -1084534088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_17
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1020
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bde527dbe0b4643878179f4d80c566
+      internalID: -679236513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_18
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1020
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6279ccf274d7c894aa7dbc06931f6a2a
+      internalID: 915901450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_19
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1020
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af48e8616469f8449832fc97f8953bd
+      internalID: -1529617595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_20
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1020
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3ef9b5a75156b4f8ea90e05f92c41f
+      internalID: -758194587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_21
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1020
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78991700407720745904099e33001c06
+      internalID: 1026650941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_22
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1020
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c821ea36d814034eb4f88076127a172
+      internalID: -166446597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_23
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1020
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe626205f0873cb4ea5d357adaac79a5
+      internalID: -295334841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_24
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 1020
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dfe0dd1c7692647b6a92fb55ac7a01
+      internalID: 1511980262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_25
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1020
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568208b8502b2bf4aa22d292b0eab0d1
+      internalID: 1455423981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0087ca8d17ad294eb642694e1cba8ff
+      internalID: 868164055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_27
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 680
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea67e1c00f6b2d4d885e2dd6d04b1a2
+      internalID: 1927383863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_28
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 680
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d5ee1635b35844d8f5cd69a3256b4f
+      internalID: 266483256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_29
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 680
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1cbca4c40913f4dbb8241ce7018d48
+      internalID: -2032444185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_30
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 680
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cbc44999b8d074d897c51a181dccce
+      internalID: -1572369679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_31
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 680
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702fcf8996e2a1a468fb32c4ccf719e4
+      internalID: -764182064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_32
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 680
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b66a7f22773f1347b1594e504c78755
+      internalID: -743049812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_33
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 680
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d18486c7bfec54c9139c4d527ecbfc
+      internalID: -2085972341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_34
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 680
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048140f0334e50e4293c41c0bf0e5f73
+      internalID: -55197830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_35
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 680
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533b6acef43162d41b365038ea689525
+      internalID: 643493317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_36
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 680
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cf99eefa6cd3548ac83124683af77b
+      internalID: -527069411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_37
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 680
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486ef4c620075b847bbd2b969d8382c8
+      internalID: -1417291860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_38
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 680
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c2096bd324b454fb31885338528861
+      internalID: -385418957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d8f163f74cb58468a9433923ee139f
+      internalID: 1017562242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_40
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 340
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf4042d51ae0134caeb8ba93584eb88
+      internalID: 1167098559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_41
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 340
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf12420dfb256d408f71cac31ae23c1
+      internalID: -909848874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_42
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 340
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e53a6f3d6ddf843afb83a233f3ac75
+      internalID: 1246464962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_43
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 340
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001e959b5d1400046b043e3fd7a12fff
+      internalID: -1395790266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_44
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 340
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b31df23d7a13a5408ac0cdb8446fd6c
+      internalID: -434367054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_45
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 340
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fde1577d872d846a47f607bd47c102
+      internalID: -1829959850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_46
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 340
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c39ce002d28f64790120d1ba7d727a
+      internalID: 218760776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_47
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 340
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e75679ac99f30644b705d6969e00485
+      internalID: -1222108705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_48
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 340
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd8c108b780c7e45a0006be5241bf04
+      internalID: -765820702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_49
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 340
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7045c9461c0f664c9ed51a664bcd769
+      internalID: -430976555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_50
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 340
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f295f7b97c2d246bd79f26be8669fd
+      internalID: 874919722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_51
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 340
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a05130acc1f9f48a8eba71519df41f
+      internalID: 417227742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1e208183f6d99488578780f8f86406
+      internalID: -1177776247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_53
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 0
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d56f456c2e0394458b0bfb8ed34d7a7
+      internalID: -1395609379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_54
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 0
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9b6c0918b9a754a950f4b54d4dd8a0
+      internalID: 422184085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_55
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 0
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf5651b4db1a524f94588832282f141
+      internalID: 699333289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_56
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 0
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19baa1ce2ffc2f440b67e1b8a621a9db
+      internalID: -2016152355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_57
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 0
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de34ec244d4328d4db2e91d311d6994c
+      internalID: -816612955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_58
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 0
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3877f808030a4a9459827e27ea12777a
+      internalID: -11930488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_59
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 0
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ae19a5af59d6040b3773e575e0e28d
+      internalID: 317410511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7x20Background_60
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 0
+        width: 119
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce189455e2c96c4ca34d3432dc75d18
+      internalID: 1869434312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      7x20Background_0: 1212567563
+      7x20Background_1: 577987818
+      7x20Background_10: 1932577689
+      7x20Background_11: -669968768
+      7x20Background_12: -1370329996
+      7x20Background_13: -455277127
+      7x20Background_14: 685082586
+      7x20Background_15: 1237766221
+      7x20Background_16: -1084534088
+      7x20Background_17: -679236513
+      7x20Background_18: 915901450
+      7x20Background_19: -1529617595
+      7x20Background_2: -1242709025
+      7x20Background_20: -758194587
+      7x20Background_21: 1026650941
+      7x20Background_22: -166446597
+      7x20Background_23: -295334841
+      7x20Background_24: 1511980262
+      7x20Background_25: 1455423981
+      7x20Background_26: 868164055
+      7x20Background_27: 1927383863
+      7x20Background_28: 266483256
+      7x20Background_29: -2032444185
+      7x20Background_3: 1875678632
+      7x20Background_30: -1572369679
+      7x20Background_31: -764182064
+      7x20Background_32: -743049812
+      7x20Background_33: -2085972341
+      7x20Background_34: -55197830
+      7x20Background_35: 643493317
+      7x20Background_36: -527069411
+      7x20Background_37: -1417291860
+      7x20Background_38: -385418957
+      7x20Background_39: 1017562242
+      7x20Background_4: 487255143
+      7x20Background_40: 1167098559
+      7x20Background_41: -909848874
+      7x20Background_42: 1246464962
+      7x20Background_43: -1395790266
+      7x20Background_44: -434367054
+      7x20Background_45: -1829959850
+      7x20Background_46: 218760776
+      7x20Background_47: -1222108705
+      7x20Background_48: -765820702
+      7x20Background_49: -430976555
+      7x20Background_5: 1605794049
+      7x20Background_50: 874919722
+      7x20Background_51: 417227742
+      7x20Background_52: -1177776247
+      7x20Background_53: -1395609379
+      7x20Background_54: 422184085
+      7x20Background_55: 699333289
+      7x20Background_56: -2016152355
+      7x20Background_57: -816612955
+      7x20Background_58: -11930488
+      7x20Background_59: 317410511
+      7x20Background_6: 1671544969
+      7x20Background_60: 1869434312
+      7x20Background_7: -54105832
+      7x20Background_8: 388766257
+      7x20Background_9: -1815901654
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

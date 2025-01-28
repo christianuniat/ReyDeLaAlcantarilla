@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     [NonSerialized] public bool facingRight = true;
     [NonSerialized] public float movX;
     [NonSerialized] public int CurrentJumpCount;
-    
+    public KeyManager km;
 
     PlayerFiniteState stateMachine;
     State initialState;
@@ -74,4 +74,15 @@ public class Player : MonoBehaviour
         theScale.x *= -1;
         transform.localScale = theScale;
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Collect"))
+        {
+            Destroy(other.gameObject);
+            km.keyCount++;
+            if (km.keyCount >= 2) { Destroy(gameObject); }
+        }
+    }
+
 }

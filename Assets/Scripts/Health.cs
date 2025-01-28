@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Health : MonoBehaviour
@@ -26,7 +27,11 @@ public class Health : MonoBehaviour
     {
         CurrentHealth--;
         slider.value = CurrentHealth;
-        if (CurrentHealth <= 0) { Destroy(gameObject); }
+        if (CurrentHealth <= 0) 
+        {
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
+        }
         _invincible = true;
         StartCoroutine(Invincible());
     }

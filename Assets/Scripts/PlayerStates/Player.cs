@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class Player : MonoBehaviour
     public float gravityFall=2;
     public AudioSource audioSteps;
     public AudioSource audioJump;
+    public GameObject escMenu;
     [NonSerialized] public Animator animator;
     [NonSerialized] public bool isOnFloor = false;
     [NonSerialized] public bool isOnWall = false;
@@ -31,12 +33,14 @@ public class Player : MonoBehaviour
         initialState = new PlayerIdleState(this);
         stateMachine = new PlayerFiniteState(this, initialState);
         health=GetComponent<Health>();
+        
     }
 
     private void Start()
     {
         _ataquesidescroller = GetComponent<ataquesidescroller>();
         GetComponent<Rigidbody2D>().gravityScale = gravityFall;
+        escMenu.SetActive(false);
     }
     // Update is called once per frame
     void Update()
@@ -54,7 +58,11 @@ public class Player : MonoBehaviour
         }
         if (Input.GetButtonDown("Fire1")) _ataquesidescroller.Ataca();
 
-
+        if (Input.GetButtonDown("Cancel")) 
+        {
+            Time.timeScale = 0.0f;
+            escMenu.SetActive(true);
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -81,7 +89,11 @@ public class Player : MonoBehaviour
         {
             Destroy(other.gameObject);
             km.keyCount++;
-            if (km.keyCount >= 2) { Destroy(gameObject); }
+            if (km.keyCount >= 2) 
+            {
+                Scene scene = SceneManager.GetActiveScene();
+                SceneManager.LoadScene(scene.name);
+            }
         }
     }
 
